@@ -13,7 +13,7 @@ int main(int argc, char** argv){
     printf("port: ");
     scanf("%d", &port);
     TcpClient client;
-    client.Connect("127.0.0.1", 4000);
+    client.Connect(ip, port);
     client.StartListen();
     while (1)
     {
