@@ -1,5 +1,6 @@
 #include "c_public/tcp_server.h"
 #include <stdio.h>
+#include <string>
 
 class DownloadFileServer : public TcpServer
 {
